@@ -1,77 +1,85 @@
 # 🚀 Instagram AI Analytics Dashboard
 
-An end-to-end analytics and visualization system for large-scale
-Instagram data, integrating **social network analysis, advanced
-visualizations, and machine learning** to extract meaningful insights
-from social media behavior.
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge)
+![ML](https://img.shields.io/badge/Machine_Learning-Enabled-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
+
+------------------------------------------------------------------------
+
+## 🌐 Live Demo
+
+👉 https://insta-dashboard-atsyktnhe4937eqzsa5twu.streamlit.app/
 
 ------------------------------------------------------------------------
 
 ## 📌 Project Overview
 
-This project analyzes large-scale social media data (500,000+ posts) to
-understand engagement patterns, content trends, and user behavior. It
-combines **data analytics, NLP-based feature engineering, dimensionality
-reduction (t-SNE), and interactive visualization** into a unified
-dashboard.
-
-The system transforms raw social data into actionable insights through a
-structured analytical pipeline and presents them via a user-friendly
-interface.
+This project is a premium AI-powered analytics dashboard designed to
+analyze large-scale Instagram data (500,000+ posts). It integrates
+**data visualization, social network analysis, dimensionality reduction
+(t-SNE), and machine learning** to extract actionable insights from
+social media behavior.
 
 ------------------------------------------------------------------------
 
 ## 🎯 Objectives
 
--   Analyze engagement trends in social media data\
+-   Analyze engagement trends\
 -   Identify patterns using hashtags, language, and time\
--   Visualize high-dimensional data effectively\
+-   Visualize high-dimensional data\
 -   Apply machine learning for prediction\
 -   Build an interactive dashboard
 
 ------------------------------------------------------------------------
 
+## 🖼️ Dashboard Preview
+
+![Dashboard](screenshot.png)
+
+------------------------------------------------------------------------
+
 ## 🧠 Core Concepts
 
-### 🔹 Online Social Networks & Social Data Analysis
+### 🔹 Online Social Networks
 
-Social media data is modeled as a network: - Nodes → posts, hashtags\
-- Edges → relationships (co-occurrence, interactions)
+Social media is modeled as a network: - Nodes → posts, hashtags\
+- Edges → relationships
 
-This helps identify trends, clusters, and engagement behavior.
+Used for: - Trend detection\
+- Cluster analysis\
+- Engagement understanding
 
 ------------------------------------------------------------------------
 
 ### 🔹 t-SNE (t-Distributed Stochastic Neighbor Embedding)
 
-t-SNE is a dimensionality reduction technique used to visualize
-high-dimensional data in 2D.
+A dimensionality reduction technique used to visualize high-dimensional
+data.
 
--   Preserves similarity between data points\
--   Reveals hidden clusters\
--   Useful for NLP and social media data
+-   Preserves similarity\
+-   Reveals clusters\
+-   Useful for text embeddings
 
 ------------------------------------------------------------------------
 
 ### 🔹 Advanced Visualizations
 
-Multiple data types are combined: - Text → captions, hashtags\
-- Numerical → likes, engagement\
-- Temporal → posting time\
-- Categorical → language, sentiment
-
-Visualizations include: - Bar charts, pie charts\
-- Scatter plots, histograms\
-- Heatmaps, correlation matrices
+Includes: - Bar charts\
+- Pie charts\
+- Scatter plots\
+- Histograms\
+- Heatmaps\
+- Correlation matrices
 
 ------------------------------------------------------------------------
 
 ## ⚙️ Methodology
 
 1.  Data preprocessing\
-2.  Feature extraction (hashtags, caption length, engagement)\
+2.  Feature extraction\
 3.  Exploratory Data Analysis (EDA)\
-4.  Dimensionality reduction (t-SNE)\
+4.  Dimensionality reduction using t-SNE\
 5.  Machine learning model (Linear Regression)\
 6.  Dashboard development using Streamlit
 
@@ -79,7 +87,7 @@ Visualizations include: - Bar charts, pie charts\
 
 ## 📊 Key Features
 
-### 📈 Data Analysis
+### 📈 Analytics
 
 -   Language distribution\
 -   Sentiment analysis\
@@ -87,8 +95,8 @@ Visualizations include: - Bar charts, pie charts\
 
 ### 🔥 Insights
 
--   Best posting time detection\
--   Hashtag performance analysis\
+-   Best posting time\
+-   Hashtag performance\
 -   Caption optimization
 
 ### 🤖 Machine Learning
@@ -104,28 +112,35 @@ Visualizations include: - Bar charts, pie charts\
 
 ------------------------------------------------------------------------
 
-## 🖥️ Dashboard Preview
+## 🏗️ System Architecture
 
-Relevant screenshots of the dashboard are included to showcase key
-visualizations and UI.
-
-(Add screenshot.png here)
-
-------------------------------------------------------------------------
-
-## 🌐 Live Demo
-
-https://insta-dashboard-atsyktnhe4937eqzsa5twu.streamlit.app/
+Raw Data\
+↓\
+Data Preprocessing\
+↓\
+Feature Engineering\
+↓\
+EDA & Visualization\
+↓\
+t-SNE\
+↓\
+Machine Learning\
+↓\
+Streamlit Dashboard\
+↓\
+User Insights
 
 ------------------------------------------------------------------------
 
 ## 🧪 Tech Stack
 
--   Streamlit\
--   Pandas, NumPy\
--   Plotly\
--   Scikit-learn\
--   NLP techniques (TF-IDF, Word2Vec)
+  Category        Tools
+  --------------- ------------------
+  Frontend        Streamlit
+  Data            Pandas, NumPy
+  Visualization   Plotly
+  ML              Scikit-learn
+  NLP             TF-IDF, Word2Vec
 
 ------------------------------------------------------------------------
 
@@ -134,17 +149,13 @@ https://insta-dashboard-atsyktnhe4937eqzsa5twu.streamlit.app/
 pip install -r requirements.txt\
 python -m streamlit run app.py
 
-------------------------------------------------------------------------
-
-## ⚡ Quick Run (Shell Script)
-
-./run.sh
 
 ------------------------------------------------------------------------
 
 ## 📁 Project Structure
 
-karts-dashboard/ │ ├── app.py\
+karts-dashboard/\
+├── app.py\
 ├── requirements.txt\
 ├── README.md\
 ├── run.sh\
@@ -157,7 +168,7 @@ karts-dashboard/ │ ├── app.py\
 -   Engagement increases with optimal hashtag usage\
 -   Posting time significantly impacts reach\
 -   Caption length influences performance\
--   Likes strongly contribute to engagement
+-   Likes strongly influence engagement
 
 ------------------------------------------------------------------------
 
@@ -170,19 +181,13 @@ karts-dashboard/ │ ├── app.py\
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Author
-
-Karthik Mekala
-
-------------------------------------------------------------------------
-
 ## 🏆 Highlights
 
 -   End-to-end analytics pipeline\
 -   AI + Visualization integration\
 -   Interactive dashboard\
--   Real-time insights\
--   Live deployment
+-   Live deployment\
+-   Portfolio-ready project
 
 ------------------------------------------------------------------------
 
@@ -191,4 +196,4 @@ Karthik Mekala
 -   Deep learning models\
 -   Real-time data integration\
 -   AI chatbot\
--   Cloud scalability
+-   Cloud deployment
